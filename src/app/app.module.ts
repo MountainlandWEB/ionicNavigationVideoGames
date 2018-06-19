@@ -8,12 +8,30 @@ import { ListPage } from '../pages/list/list';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+import {ContactUsPage} from "../pages/contact-us/contact-us";
+import {GameDetailsPage} from "../pages/game-details/game-details";
+import {GamePicsPage} from "../pages/game-pics/game-pics";
+import {GameReviewsPage} from "../pages/game-reviews/game-reviews";
+import {HelpPage} from "../pages/help/help";
+import {LoginPage} from "../pages/login/login";
+import {PlatformsPage} from "../pages/platforms/platforms";
+import {SearchPage} from "../pages/search/search";
+import {UserProfilePage} from "../pages/user-profile/user-profile";
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
-    ListPage
+    ListPage,
+    ContactUsPage,
+    GameDetailsPage,
+    GamePicsPage,
+    GameReviewsPage,
+    HelpPage,
+    LoginPage,
+    PlatformsPage,
+    SearchPage,
+    UserProfilePage
   ],
   imports: [
     BrowserModule,
@@ -23,7 +41,17 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   entryComponents: [
     MyApp,
     HomePage,
-    ListPage
+    ListPage,
+    ContactUsPage,
+    ContactUsPage,
+    GameDetailsPage,
+    GamePicsPage,
+    GameReviewsPage,
+    HelpPage,
+    LoginPage,
+    PlatformsPage,
+    SearchPage,
+    UserProfilePage
   ],
   providers: [
     StatusBar,
